@@ -1,7 +1,4 @@
 # VL.Devices.TheEyeTribe
-Support for the eye tracker by TheEyeTribe for VL
-
-# VL.Devices.Astra
 Set of nodes to use the eye tracker by TheEyeTribe in VL.
 
 Try it with vvvv, the visual live-programming environment for .NET  
