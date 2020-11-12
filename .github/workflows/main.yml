@@ -25,7 +25,7 @@ jobs:
       uses: vvvv/PublishVLNuget@1.0.28
       with:
         csproj: src\VL.Devices.TheEyeTribe.csproj
-        nuspec: deployment\VL.Devices.TheEyeTribe
+        nuspec: deployment\VL.Devices.TheEyeTribe.nuspec
         icon-src: https://raw.githubusercontent.com/vvvv/PublicContent/master/nugeticon.png
         icon-dst: ./deployment/nugeticon.png
         nuget-key: ${{ secrets.NUGET_KEY }}
