@@ -12,6 +12,11 @@
     <description>Support for TheEyeTribe eye tracker for VL</description>
     <tags>VL, eye, tracking</tags>
 	<license type="expression">LGPL-3.0-only</license>
+	<dependencies>
+      <group targetFramework="net461">
+        <dependency id="System.Reactive" version="5.0.0" />
+      </group>
+    </dependencies>
 	<icon>icon\nugeticon.png</icon>
   </metadata>
   <files>
