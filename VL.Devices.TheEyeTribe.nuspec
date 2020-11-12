@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>VL.Devices.TheEyeTribe</id>
+    <version>0.95.37-g2f977ac3c1</version>
+    <title>VL.Devices.TheEyeTribe</title>
+    <authors>vvvv group</authors>
+    <owners>vvvv</owners>
+    <projectUrl>http://vvvv.org</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Provides support for the Eyetracker by The Eye Tribe in VL</description>
+    <copyright>Copyright © 2018 by vvvv group. All rights reserved.</copyright>
+    <tags>VL</tags>
+    <dependencies>
+      <group targetFramework="net461">
+        <dependency id="VL.CoreLib" version="0.95.37-g2f977ac3c1" />
+        <dependency id="System.Reactive" version="4.0.0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\joreg\Documents\repos\vvvv\public-vl\VL.Devices.TheEyeTribe\lib\net461\TETCSharpClient.dll" target="lib\net461\TETCSharpClient.dll" exclude="" />
+    <file src="C:\Users\joreg\Documents\repos\vvvv\public-vl\VL.Devices.TheEyeTribe\src\bin\AnyCPU\Debug\VL.TheEyeTribe.dll" target="lib\net461\VL.TheEyeTribe.dll" exclude="" />
+    <file src="C:\Users\joreg\Documents\repos\vvvv\public-vl\VL.Devices.TheEyeTribe\src\bin\AnyCPU\Debug\VL.TheEyeTribe.pdb" target="lib\net461\VL.TheEyeTribe.pdb" exclude="" />
+    <file src="C:\Users\joreg\Documents\repos\vvvv\public-vl\VL.Devices.TheEyeTribe\src\bin\AnyCPU\Debug\VL.TheEyeTribe.XML" target="lib\net461\VL.TheEyeTribe.XML" exclude="" />
+    <file src="C:\Users\joreg\Documents\repos\vvvv\public-vl\VL.Devices.TheEyeTribe\TheEyeTribe.Utils.vl" target="TheEyeTribe.Utils.vl" exclude="" />
+    <file src="C:\Users\joreg\Documents\repos\vvvv\public-vl\VL.Devices.TheEyeTribe\TheEyeTribeCalibration.vl" target="TheEyeTribeCalibration.vl" exclude="" />
+    <file src="C:\Users\joreg\Documents\repos\vvvv\public-vl\VL.Devices.TheEyeTribe\VL.Devices.TheEyeTribe.vl" target="VL.Devices.TheEyeTribe.vl" exclude="" />
+    <file src="C:\Users\joreg\Documents\repos\vvvv\public-vl\VL.Devices.TheEyeTribe\vvvv\nodes\vl\Calibration (TheEyeTribe) help.v4p" target="vvvv\nodes\vl\Calibration (TheEyeTribe) help.v4p" exclude="" />
+    <file src="C:\Users\joreg\Documents\repos\vvvv\public-vl\VL.Devices.TheEyeTribe\vvvv\nodes\vl\EyeTracker (Devices TheEyeTribe) help.v4p" target="vvvv\nodes\vl\EyeTracker (Devices TheEyeTribe) help.v4p" exclude="" />
+    <file src="C:\Users\joreg\Documents\repos\vvvv\public-vl\VL.Devices.TheEyeTribe\vvvv\nodes\vl\VVVV.Devices.TheEyeTribe.vl" target="vvvv\nodes\vl\VVVV.Devices.TheEyeTribe.vl" exclude="" />
+  </files>
+</package>

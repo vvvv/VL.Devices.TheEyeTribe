@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <VLPackageBasePath>..\</VLPackageBasePath>
+    <PackageId>$(AssemblyName)</PackageId>
+    <Description>Provides support for the Eyetracker by The Eye Tribe in VL</Description>
+    <PackageLicenseExpression>LGPL-3.0-only</PackageLicenseExpression>
+    <PackageTags>VL, tracking</PackageTags>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="TETCSharpClient">
+      <HintPath>..\lib\net461\TETCSharpClient.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\VL.Core\src\VL.Core.csproj">
+      <PrivateAssets>all</PrivateAssets>
+    </ProjectReference>
+  </ItemGroup>
+</Project>
