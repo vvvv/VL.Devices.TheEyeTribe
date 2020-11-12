@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="VJnHDjK6RBSMDyhH64MQOq" LanguageVersion="2019.2.0-0342-6bc9b61985" Version="0.128" IsTrusted="true">
-  <NugetDependency Id="FygxpUX4gYIO6V3TD82rGk" Location="VL.CoreLib" Version="2019.2.0-0342-g6bc9b61985" />
+<Document xmlns:p="property" Id="VJnHDjK6RBSMDyhH64MQOq" LanguageVersion="2020.3.0.68" Version="0.128">
+  <NugetDependency Id="FygxpUX4gYIO6V3TD82rGk" Location="VL.CoreLib" Version="2020.3.0-0068-gbfc5bf7649" />
   <PlatformDependency Id="JtkTYg1vWjcLzvorokk4Gz" Location="TETCSharpClient.dll" />
   <Patch Id="TpQYtpeJ7G2L0hK000Gt3S">
     <Canvas Id="Mxp255Kvav7NuGAbpTfHOv" CanvasType="FullCategory">
@@ -154,7 +154,7 @@
           </Patch>
         </Node>
       </Canvas>
-      <Canvas Id="ERVU4JPAOygPWl4R4BhgJd" Name="TETPoint2Utils" Position="450,200" DefaultCategory="TETCSharpClient.Data.Point2D" CanvasType="FullCategory">
+      <Canvas Id="ERVU4JPAOygPWl4R4BhgJd" Name="TETPoint2Utils" Position="98,256" DefaultCategory="TETCSharpClient.Data.Point2D" CanvasType="FullCategory">
         <!--
 
     ************************ ToVector2 ************************
@@ -212,7 +212,7 @@
               <Pin Id="MwBYVHoknxQNK3FIMZHHwE" Name="Y" Kind="OutputPin" />
             </Node>
             <Node Bounds="117,406,314,278" Id="LI5mBOSd1C8Le9v8SXoJZf">
-              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="ApplicationStatefulRegion" Name="If" />
                 <CategoryReference Kind="Category" Name="Primitive" />
               </p:NodeReference>
@@ -360,7 +360,7 @@
               <Pin Id="MPrFGDxdqw4MR7st40HqCR" Name="Result" Kind="OutputPin" />
             </Node>
             <Node Bounds="-444,312,468,310" Id="HvHFsmHWH4YOwXPsaiaBpu">
-              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
                 <Choice Kind="ApplicationStatefulRegion" Name="If" />
                 <CategoryReference Kind="Category" Name="Primitive" />
               </p:NodeReference>
@@ -473,7 +473,7 @@
           </Patch>
         </Node>
       </Canvas>
-      <Canvas Id="GVQZwiB6RKcMrXaU4hGjeV" Name="TETCSharpClient" Position="600,200">
+      <Canvas Id="GVQZwiB6RKcMrXaU4hGjeV" Name="TETCSharpClient" Position="101,327">
         <Canvas Id="DwnLVJ0toJDOutwR4gumqd" Name="Data" Position="200,200" BordersChecked="false">
           <!--
 
