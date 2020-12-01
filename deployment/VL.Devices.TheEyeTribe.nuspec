@@ -2,9 +2,9 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.Devices.TheEyeTribe</id>
-    <version>0.0.1-alpha</version>
+    <version>0.0.2-alpha</version>
     <title>VL.Devices.TheEyeTribe</title>
-    <authors>NAudio, vvvv</authors>
+    <authors>TheEyeTribe, vvvv</authors>
     <owners>vvvv</owners>
     <projectUrl>https://github.com/vvvv/vl.devices.TheEyeTribe</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
