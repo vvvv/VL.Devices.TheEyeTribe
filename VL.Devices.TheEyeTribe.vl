@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="UtOBbcoX7cSNN9N5otxDvj" Summary="Nodes for the TheEyeTribe Eyetracker device" Authors="dominikKoller, vvvv group" LicenseUrl="https://www.gnu.org/licenses/lgpl-3.0-standalone.html" ProjectUrl="https://vvvv.org/" LanguageVersion="2020.3.0.68" Version="0.128">
-  <NugetDependency Id="NbfxS0qyKGjM1GnZjf2ywx" Location="VL.CoreLib" Version="2020.3.0-0068-gbfc5bf7649" />
+<Document xmlns:p="property" Id="BjoZE3trKUzOLTz8UsdKk1" Summary="Nodes for the TheEyeTribe Eyetracker device" Authors="dominikKoller, vvvv group" LicenseUrl="https://www.gnu.org/licenses/lgpl-3.0-standalone.html" ProjectUrl="https://vvvv.org/" LanguageVersion="2020.3.0.75" Version="0.128">
+  <NugetDependency Id="NbfxS0qyKGjM1GnZjf2ywx" Location="VL.CoreLib" Version="2020.3.0-0075-g6ca65d0b48" />
   <PlatformDependency Id="J0SVMqx6diTPJkwtYQVVUZ" Location="TETCSharpClient.dll" />
   <PlatformDependency Id="ANzDEylKAdJNIh5VS2r3b9" Location="VL.Devices.TheEyeTribe.dll" />
   <DocumentDependency Id="A3WYpB0O2jAQYjsXuqTfzn" Location="./TheEyeTribe.Utils.vl" />
@@ -1029,32 +1029,7 @@
         <FullNameCategoryReference ID="Primitive" />
       </p:NodeReference>
       <Patch Id="BbKN7rzaUDBO039GMgkHcB">
-        <Canvas Id="BP4Zv40Y7OwMjQYSpe0BfD" CanvasType="Group">
-          <Node Bounds="414,224,265,19" Id="ByMvRxI1odpLPTXcDuPRgr">
-            <p:NodeReference LastCategoryFullName="Devices.TheEyeTribe" LastSymbolSource="VL.Devices.TheEyeTribe.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="Category" Name="Devices" />
-              <CategoryReference Kind="Category" Name="TheEyeTribe" />
-              <Choice Kind="ProcessAppFlag" Name="Eyetracker" />
-            </p:NodeReference>
-            <Pin Id="C91TVykbrbnPSSXUAmzRje" Name="Enabled" Kind="InputPin" />
-            <Pin Id="NOkAxofGxvgPJmQo0avoGu" Name="Coordinate Smoothing" Kind="InputPin" />
-            <Pin Id="NRV2VQdlKmELJ8i9BpBsTB" Name="GazeData" Kind="OutputPin" />
-            <Pin Id="BQbc80KHI2wO2eQolochi3" Name="Gaze Coordinates" Kind="OutputPin" />
-            <Pin Id="QjEGYabHHH8NlWz3vBNoqO" Name="Is Fixated" Kind="OutputPin" />
-            <Pin Id="QL2jdqrPGi9LddwXcUx8fi" Name="GazeState" Kind="OutputPin" />
-            <Pin Id="QkxxL1YjU1VMpQ0W4WEy2G" Name="L Coordinates" Kind="OutputPin" />
-            <Pin Id="Nple1wL4z3ANqZ8rPtEpNi" Name="L Pupil Position" Kind="OutputPin" />
-            <Pin Id="BiD9PnZSeSYO1K9RyQYApY" Name="L PupilSize" Kind="OutputPin" />
-            <Pin Id="Po7GoWxwkHxO2ja4h8tuPI" Name="R Coordinates" Kind="OutputPin" />
-            <Pin Id="G29vt0gFKZBMQLAQCoZzaL" Name="R Pupil Position" Kind="OutputPin" />
-            <Pin Id="RrvQ4cu74LuNEa8FSHqBeL" Name="R Pupil Size" Kind="OutputPin" />
-            <Pin Id="EnE1pLhGs7VM7nsvwo769r" Name="Is Calibrated" Kind="OutputPin" />
-            <Pin Id="E3J3XtE70rIMLC1luFoVCb" Name="Is Calibrating" Kind="OutputPin" />
-            <Pin Id="SKk4CjcBKRrNRDY3U6TwhM" Name="TrackerState" Kind="OutputPin" />
-            <Pin Id="NtQaybXKfGbOs8K3y93yrd" Name="Is Activated" Kind="OutputPin" />
-          </Node>
-        </Canvas>
+        <Canvas Id="BP4Zv40Y7OwMjQYSpe0BfD" CanvasType="Group" />
         <Patch Id="LrS9CKnuaprNqW8KhjUQF2" Name="Create" />
         <Patch Id="KNooPVPNUV5NejcXa0wWnA" Name="Update" />
         <ProcessDefinition Id="EaOxc7wBPUXNgQgDsbSzqi">
