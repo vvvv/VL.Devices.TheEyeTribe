@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="GBfaMC0jSMvLu0PAf8dvYg" LanguageVersion="2019.2.0-0342-6bc9b61985" Version="0.128" IsTrusted="true">
-  <NugetDependency Id="F8WBiTMBeOVPvOrMGg2vcR" Location="VL.CoreLib" Version="2019.2.0-0342-g6bc9b61985" />
+<Document xmlns:p="property" Id="GBfaMC0jSMvLu0PAf8dvYg" LanguageVersion="2020.2.4.333" Version="0.128">
+  <NugetDependency Id="F8WBiTMBeOVPvOrMGg2vcR" Location="VL.CoreLib" Version="2020.2.4" />
   <NugetDependency Id="IeJh2Ner2a7NUqmPtfL8te" Location="VL.Devices.TheEyeTribe" Version="2019.2.0-0342-g6bc9b61985" />
   <Patch Id="RQH6QzNY3C5O4RJcTqirjJ">
     <Canvas Id="Rv2Uw0AacJBQPcP5ohRXhu" BordersChecked="false" CanvasType="FullCategory" />
@@ -25,9 +25,11 @@
             </p:TypeAnnotation>
           </Pad>
           <Node Bounds="285,232" Id="TXKk6tSXfnXMl5c8SWlMrU">
-            <p:NodeReference LastCategoryFullName="Devices" LastSymbolSource="VL.Devices.TheEyeTribe.vl">
+            <p:NodeReference LastCategoryFullName="Devices.TheEyeTribe" LastSymbolSource="VL.Devices.TheEyeTribe.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Devices" />
-              <Choice Kind="ProcessNode" Name="Eyetracker (TheEyeTribe)" />
+              <CategoryReference Kind="Category" Name="TheEyeTribe" />
+              <Choice Kind="ProcessAppFlag" Name="Eyetracker" />
             </p:NodeReference>
             <p:HideCategory p:Type="Boolean">true</p:HideCategory>
             <Pin Id="PD6ZjABguZqLMcrWdGOwIV" Name="Enabled" Kind="InputPin" />
@@ -47,18 +49,18 @@
             <Pin Id="GyIuhLFWiqULmAuoIdETH5" Name="TrackerState" Kind="OutputPin" />
             <Pin Id="SOh67dPjCRoMmlXm5vFaLc" Name="Is Activated" Kind="OutputPin" />
           </Node>
-          <Pad Id="OXRFGVKzWW0NplKmVXzf4i" Bounds="504,290" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="L4TZv3d4IbuO3Z6ibQoZb8" Bounds="467,343" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="Vqmf69uKAaLPns8e93aHfE" Bounds="293,300" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="C0KxHjwrE0WN36SnB5IcyL" Comment="Gaze Coordinates" Bounds="281,356,35,28" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="FHuPxeNGlx5PpedBQlkCFn" Comment="Is Activated" Bounds="551,274,35,35" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="Ol1gcHiSchmMAejjwaFxFF" Comment="TrackerState" Bounds="527,328,35,15" ShowValueBox="true" isIOBox="true" />
         </Canvas>
         <Link Id="AOq1L545UMxNPBz82NcjpC" Ids="HpgLWbgG0Y7QDvYrWXB1XI,PD6ZjABguZqLMcrWdGOwIV" />
-        <Link Id="QGkaPP7WmcFOxhnpABbbaw" Ids="SOh67dPjCRoMmlXm5vFaLc,OXRFGVKzWW0NplKmVXzf4i" />
-        <Link Id="BDYdhxLqP58LEK08J95XXs" Ids="GyIuhLFWiqULmAuoIdETH5,L4TZv3d4IbuO3Z6ibQoZb8" />
-        <Link Id="OrAMLGBZMDWLWvOSZDsLna" Ids="E7rbrGffgFgMdzU20e4Jj0,Vqmf69uKAaLPns8e93aHfE" />
         <ProcessDefinition Id="IysdNN7PD9kNdpUYY99Gbq">
           <Fragment Id="LDTkUnoSwnMQdbBikzG04u" Patch="HpCqdGi5ZENPQ9e6AVVlVm" Enabled="true" />
           <Fragment Id="PQ0un9lSswZLRc9cFhAKkk" Patch="Cby25FEyIw9PnHBVfP6mVT" Enabled="true" />
         </ProcessDefinition>
+        <Link Id="QAOiDIbqUPwNY7N8dpoZYP" Ids="E7rbrGffgFgMdzU20e4Jj0,C0KxHjwrE0WN36SnB5IcyL" />
+        <Link Id="DybbBJOBPfMMxNQMuWNMf6" Ids="SOh67dPjCRoMmlXm5vFaLc,FHuPxeNGlx5PpedBQlkCFn" />
+        <Link Id="BO6DTYq7xKULeqodlM1PD5" Ids="GyIuhLFWiqULmAuoIdETH5,Ol1gcHiSchmMAejjwaFxFF" />
       </Patch>
     </Node>
   </Patch>

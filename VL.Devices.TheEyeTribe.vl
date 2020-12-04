@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="BjoZE3trKUzOLTz8UsdKk1" Summary="Nodes for the TheEyeTribe Eyetracker device" Authors="dominikKoller, vvvv group" LicenseUrl="https://www.gnu.org/licenses/lgpl-3.0-standalone.html" ProjectUrl="https://vvvv.org/" LanguageVersion="2020.3.0.75" Version="0.128">
-  <NugetDependency Id="NbfxS0qyKGjM1GnZjf2ywx" Location="VL.CoreLib" Version="2020.3.0-0075-g6ca65d0b48" />
+<Document xmlns:p="property" Id="BjoZE3trKUzOLTz8UsdKk1" Summary="Nodes for the TheEyeTribe Eyetracker device" Authors="dominikKoller, vvvv group" LicenseUrl="https://www.gnu.org/licenses/lgpl-3.0-standalone.html" ProjectUrl="https://vvvv.org/" LanguageVersion="2020.2.4.333" Version="0.128">
+  <NugetDependency Id="NbfxS0qyKGjM1GnZjf2ywx" Location="VL.CoreLib" Version="2020.2.4" />
   <PlatformDependency Id="J0SVMqx6diTPJkwtYQVVUZ" Location="TETCSharpClient.dll" />
   <PlatformDependency Id="ANzDEylKAdJNIh5VS2r3b9" Location="VL.Devices.TheEyeTribe.dll" />
   <DocumentDependency Id="A3WYpB0O2jAQYjsXuqTfzn" Location="./TheEyeTribe.Utils.vl" />
