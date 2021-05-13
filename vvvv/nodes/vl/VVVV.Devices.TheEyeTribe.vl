@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="HcrVgxnwOgGQBVj9GbLjos" Authors="dominikKoller, vvvv group" LanguageVersion="2019.2.0-0342-6bc9b61985" Version="0.128" IsTrusted="true">
-  <NugetDependency Id="OlraePcq9RkQNtbWOYtXaz" Location="VL.CoreLib" Version="2019.2.0-0342-g6bc9b61985" />
+<Document xmlns:p="property" Id="HcrVgxnwOgGQBVj9GbLjos" Authors="dominikKoller, vvvv group" LanguageVersion="2021.3.2.109" Version="0.128">
+  <NugetDependency Id="OlraePcq9RkQNtbWOYtXaz" Location="VL.CoreLib" Version="2021.3.2" />
   <Patch Id="ArpgW8dPwyRNrusFiXO3gw">
-    <Canvas Id="CyADHVTifc9QGEAfCbjtDA" BordersChecked="false" CanvasType="FullCategory">
+    <Canvas Id="CyADHVTifc9QGEAfCbjtDA" CanvasType="FullCategory">
       <!--
 
     ************************ Calibration ************************
@@ -130,11 +130,13 @@
             <Pin Id="CYmddhx6gk3MDK4skmoerL" Name="TrackerState" Kind="OutputPin" />
             <Pin Id="LSdXROOYmz4NwYJ95mnl1w" Name="Is Activated" Kind="OutputPin" />
           </Patch>
-          <Canvas Id="FCFDCzjcqC4NLBGEc8Luoa" BordersChecked="false" CanvasType="Group">
-            <Node Bounds="181,154,265,13" Id="LRIzhtMzB9yLhl0IYM5goC">
-              <p:NodeReference LastCategoryFullName="Devices" LastSymbolSource="VL.Devices.TheEyeTribe.vl">
-                <Choice Kind="ProcessNode" Name="Eyetracker (TheEyeTribe)" />
+          <Canvas Id="FCFDCzjcqC4NLBGEc8Luoa" CanvasType="Group">
+            <Node Bounds="411,291,265,19" Id="LRIzhtMzB9yLhl0IYM5goC">
+              <p:NodeReference LastCategoryFullName="Devices.TheEyeTribe" LastSymbolSource="VL.Devices.TheEyeTribe.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="Category" Name="Devices" />
+                <CategoryReference Kind="Category" Name="TheEyeTribe" />
+                <Choice Kind="ProcessAppFlag" Name="Eyetracker" />
               </p:NodeReference>
               <Pin Id="OqT3pMVpBpKOfhY8s2xmR7" Name="Enabled" Kind="InputPin" />
               <Pin Id="HZJzVr1QabmO3ybpCJOltp" Name="Coordinate Smoothing" Kind="InputPin" />
@@ -153,22 +155,22 @@
               <Pin Id="OrXias4SicIOempKOuEcKP" Name="TrackerState" Kind="OutputPin" />
               <Pin Id="QQ5sFIx7WB6MVmuZ1wdV45" Name="Is Activated" Kind="OutputPin" />
             </Node>
-            <ControlPoint Id="BGZOaNBFkMCPdVu61R7RqF" Bounds="180,115" />
-            <ControlPoint Id="JpcMkDeSMddMsivypuLD5m" Bounds="377,115" />
-            <ControlPoint Id="IDIMsddFFZWLj7cCNUkymX" Bounds="-159,324" />
-            <ControlPoint Id="Up4jiwT5Q0HOCwmus7PWJx" Bounds="-44,324" />
-            <ControlPoint Id="RzPNPlVzgB1NMtfEvkazaL" Bounds="40,324" />
-            <ControlPoint Id="SvYclhzfSCsPtLfVzfLw79" Bounds="122,324" />
-            <ControlPoint Id="I6eegnprkWPNScn9P5idai" Bounds="228,324" />
-            <ControlPoint Id="J7E8EGGbYRDOb7EVpwRouB" Bounds="335,324" />
-            <ControlPoint Id="ATpyeJrUxdLMchSaezqsZi" Bounds="409,324" />
-            <ControlPoint Id="R2mz6kfJsm3Lo58PL5UYnS" Bounds="544,324" />
-            <ControlPoint Id="LVYduNI2NkmPlc7mvlz8OV" Bounds="657,324" />
-            <ControlPoint Id="CpR927xLJX8OBMS3wkqiAh" Bounds="776,324" />
-            <ControlPoint Id="CesumOlGowlPWV4xtCN1Wi" Bounds="875,324" />
-            <ControlPoint Id="MMvv6bTYNlPL7UC8rP3ase" Bounds="1420,324" />
-            <ControlPoint Id="QydujNPkDmbOAf8Xh5yGcR" Bounds="1518,324" />
-            <ControlPoint Id="EEfI4Fdm0rQMRds4J8HYPU" Bounds="1617,324" />
+            <ControlPoint Id="BGZOaNBFkMCPdVu61R7RqF" Bounds="410,252" />
+            <ControlPoint Id="JpcMkDeSMddMsivypuLD5m" Bounds="607,252" />
+            <ControlPoint Id="IDIMsddFFZWLj7cCNUkymX" Bounds="71,461" />
+            <ControlPoint Id="Up4jiwT5Q0HOCwmus7PWJx" Bounds="186,461" />
+            <ControlPoint Id="RzPNPlVzgB1NMtfEvkazaL" Bounds="270,461" />
+            <ControlPoint Id="SvYclhzfSCsPtLfVzfLw79" Bounds="352,461" />
+            <ControlPoint Id="I6eegnprkWPNScn9P5idai" Bounds="458,461" />
+            <ControlPoint Id="J7E8EGGbYRDOb7EVpwRouB" Bounds="565,461" />
+            <ControlPoint Id="ATpyeJrUxdLMchSaezqsZi" Bounds="639,461" />
+            <ControlPoint Id="R2mz6kfJsm3Lo58PL5UYnS" Bounds="774,461" />
+            <ControlPoint Id="LVYduNI2NkmPlc7mvlz8OV" Bounds="887,461" />
+            <ControlPoint Id="CpR927xLJX8OBMS3wkqiAh" Bounds="1006,461" />
+            <ControlPoint Id="CesumOlGowlPWV4xtCN1Wi" Bounds="1105,461" />
+            <ControlPoint Id="MMvv6bTYNlPL7UC8rP3ase" Bounds="1650,461" />
+            <ControlPoint Id="QydujNPkDmbOAf8Xh5yGcR" Bounds="1748,461" />
+            <ControlPoint Id="EEfI4Fdm0rQMRds4J8HYPU" Bounds="1847,461" />
           </Canvas>
           <Link Id="AceoDJgFux6MMdhnyXIRp2" Ids="DgNQhNfffqPQUiBNkVtCQP,BGZOaNBFkMCPdVu61R7RqF" IsHidden="true" />
           <Link Id="TayKuunGENZMkzc91AGtxn" Ids="RxfTDe5ZnFnLvpgeIhkPzn,JpcMkDeSMddMsivypuLD5m" IsHidden="true" />
@@ -233,11 +235,13 @@
             <Pin Id="B6LOJdiJJwLLiTCUTBhQQU" Name="R Pupil Position" Kind="OutputPin" />
             <Pin Id="NG1xKlmczGuM54GVsXBjOE" Name="R Pupil Size" Kind="OutputPin" />
           </Patch>
-          <Canvas Id="R0juTxhQ8AuPJjgEJbm7sm" BordersChecked="false" CanvasType="Group">
+          <Canvas Id="R0juTxhQ8AuPJjgEJbm7sm" CanvasType="Group">
             <Node Bounds="167,230,165,13" Id="SHh0pE0glbvPuypxrmJuy4">
-              <p:NodeReference LastCategoryFullName="Devices.TheEyeTribe.GazeData" LastSymbolSource="VL.Devices.TheEyeTribe.vl">
-                <Choice Kind="ProcessNode" Name="LastFrame" />
-                <CategoryReference Kind="Category" Name="GazeData" />
+              <p:NodeReference LastCategoryFullName="Devices.TheEyeTribe" LastSymbolSource="VL.Devices.TheEyeTribe.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <CategoryReference Kind="Category" Name="Devices" />
+                <CategoryReference Kind="Category" Name="TheEyeTribe" />
+                <Choice Kind="ProcessAppFlag" Name="LastFrame" />
               </p:NodeReference>
               <Pin Id="IPvvJov5xClLklwIUrwJKj" Name="GazeData" Kind="InputPin" />
               <Pin Id="LZ5Uixz0kb2P0iKrUr6k9B" Name="Coordinate Smoothing" Kind="InputPin" />
